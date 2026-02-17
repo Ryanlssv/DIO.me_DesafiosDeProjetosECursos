@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ytb-left {
+     display: flex;
+     justify-content: space-between;
+     width: 150px;
+}
+.ytb-left i {
+ font-size: 20px;
+ cursor: pointer;
+}
+
+
+.ytb-right{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ytb-right i{
+font-size: 20px;
+ cursor: pointer;
+}
+
+.ytb-right .fa-circle-user {
+    font-size: 30px;
+}
+
+/*Parte de baixo do header - Video e titulo*/
+
+.main{
+    margin: 15px 60px 0px;
+    width: 975px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.VideoBlock{
+    background-color: aqua;
+    width: 975px;
+    height:500px;
+}
+
+#title-video{
+    font-size: 20px;
+    margin: 10px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.VideoInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px;
+}
+
+#Btn-inscreva{
+    background-color: red;
+    color: white;
+    border: none ;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.VideoInfo span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 10px;
+    font-size: 15px;
+    
+}
+
+.VideoInfo i {
+    cursor: pointer;
+}
+
+.VideoInfo p {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+#Descricao{
+    margin: 10px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Parte da lateral dos videos*/
+
+.Lateral-videos{
+    width: 24%;
+    height: 800px;
+    position: absolute;
+    top: 75px;
+    left: 74%;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.video{
+    display: flex;
+    justify-content: space-between;
+}
+
+.video img {
+
+    margin-left: 5px;
+}
+
+
+
+
+
+
